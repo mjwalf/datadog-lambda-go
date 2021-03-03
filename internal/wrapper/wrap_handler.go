@@ -15,7 +15,7 @@ import (
 	"fmt"
 	"reflect"
 
-	"github.com/DataDog/datadog-lambda-go/internal/logger"
+	"github.com/mjwalf/datadog-lambda-go/internal/logger"
 )
 
 var (

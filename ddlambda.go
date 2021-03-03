@@ -6,7 +6,7 @@
  * Copyright 2019 Datadog, Inc.
  */
 
-package ddlambda
+package main
 
 import (
 	"context"
@@ -18,10 +18,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/DataDog/datadog-lambda-go/internal/logger"
-	"github.com/DataDog/datadog-lambda-go/internal/metrics"
-	"github.com/DataDog/datadog-lambda-go/internal/trace"
-	"github.com/DataDog/datadog-lambda-go/internal/wrapper"
+	"github.com/mjwalf/datadog-lambda-go/internal/logger"
+	"github.com/mjwalf/datadog-lambda-go/internal/metrics"
+	"github.com/mjwalf/datadog-lambda-go/internal/trace"
+	"github.com/mjwalf/datadog-lambda-go/internal/wrapper"
 )
 
 type (

@@ -1,10 +1,10 @@
 # datadog-lambda-go
 
-![build](https://github.com/DataDog/datadog-lambda-go/workflows/build/badge.svg)
+![build](https://github.com/mjwalf/datadog-lambda-go/workflows/build/badge.svg)
 [![Code Coverage](https://img.shields.io/codecov/c/github/DataDog/datadog-lambda-go)](https://codecov.io/gh/DataDog/datadog-lambda-go)
 [![Slack](https://chat.datadoghq.com/badge.svg?bg=632CA6)](https://chat.datadoghq.com/)
-[![Godoc](https://img.shields.io/badge/godoc-reference-blue.svg)](https://godoc.org/github.com/DataDog/datadog-lambda-go)
-[![License](https://img.shields.io/badge/license-Apache--2.0-blue)](https://github.com/DataDog/datadog-lambda-go/blob/main/LICENSE)
+[![Godoc](https://img.shields.io/badge/godoc-reference-blue.svg)](https://godoc.org/github.com/mjwalf/datadog-lambda-go)
+[![License](https://img.shields.io/badge/license-Apache--2.0-blue)](https://github.com/mjwalf/datadog-lambda-go/blob/main/LICENSE)
 
 Datadog Lambda Library for Go enables enhanced Lambda metrics, distributed tracing, and custom metric submission from AWS Lambda functions.  
 
@@ -64,7 +64,7 @@ If you are also using AWS X-Ray to trace your Lambda functions, you can set the 
 
 ### DD_FLUSH_TO_LOG
 
-Set to `true` (recommended) to send custom metrics asynchronously (with no added latency to your Lambda function executions) through CloudWatch Logs with the help of [Datadog Forwarder](https://github.com/DataDog/datadog-serverless-functions/tree/master/aws/logs_monitoring). Defaults to `false`. If set to `false`, you also need to set `DD_API_KEY` and `DD_SITE`.
+Set to `true` (recommended) to send custom metrics asynchronously (with no added latency to your Lambda function executions) through CloudWatch Logs with the help of [Datadog Forwarder](https://github.com/mjwalf/datadog-serverless-functions/tree/master/aws/logs_monitoring). Defaults to `false`. If set to `false`, you also need to set `DD_API_KEY` and `DD_SITE`.
 
 ### DD_API_KEY
 
@@ -100,7 +100,7 @@ You can also open an issue for a feature request.
 
 ## Contributing
 
-If you find an issue with this package and have a fix, please feel free to open a pull request following the [procedures](https://github.com/DataDog/datadog-lambda-go/blob/main/CONTRIBUTING.md).
+If you find an issue with this package and have a fix, please feel free to open a pull request following the [procedures](https://github.com/mjwalf/datadog-lambda-go/blob/main/CONTRIBUTING.md).
 
 ## Community
 
